@@ -41,7 +41,7 @@ There are three main types of tools in ADK:
 
 ## Workshop Implementation Example
 
-In this workshop, we've implemented a demo agent that showcases function calling capabilities. The implementation can be found in the `tool_agent/tools/` directory.
+In this workshop, we've implemented a demo agent that showcases function calling capabilities. The implementation can be found in the `tool-agent/tools/` directory.
 
 ### Example Tools in Our Demo
 
