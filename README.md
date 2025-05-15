@@ -1,20 +1,22 @@
-# Python Project
+# AI Pilipinas Cebu Build with AI Workshop
 
-This project uses Python 3.12 and virtual environments for dependency management.
+This repository contains materials for the AI Pilipinas Cebu "Build with AI" Workshop. The workshop uses Python 3.12 and focuses on practical AI development skills.
 
-## Setup
+## Workshop Setup
 
 ### Prerequisites
 
 - Python 3.12
   - Download from [python.org](https://www.python.org/downloads/) or use your system's package manager
+- Basic Python knowledge
+- A text editor or IDE (VS Code recommended)
 
-### Creating a Virtual Environment
+### Preparing Your Environment
 
 1. Clone this repository
    ```
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/breadoncee/lets-adk.git
+   cd lets-adk
    ```
 
 2. Create a virtual environment
@@ -39,26 +41,14 @@ This project uses Python 3.12 and virtual environments for dependency management
      venv\Scripts\Activate.ps1
      ```
 
-4. Install dependencies
+4. Install workshop dependencies
    ```
    pip install -r requirements.txt
    ```
 
 ### Deactivating the Virtual Environment
 
-When you're done working on the project, you can deactivate the virtual environment:
+When you're done working on the workshop materials, you can deactivate the virtual environment:
 ```
 deactivate
 ```
-
-## Usage
-
-[Add specific usage instructions for your project here]
-
-## Development
-
-To add new dependencies to the project:
-```
-pip install <package-name>
-pip freeze > requirements.txt
-``` 
